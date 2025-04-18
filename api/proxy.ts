@@ -13,7 +13,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   }
 
   // Прокси логика
-  const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwKeYtdH3UBIM2ZxFr35LBxthavFV6vPscGThwLLy8xHJfqiCmBpQq9Gk9Nk7gTQk_U/exec';
+  const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbySG_Qdiq_Cow5slOfd7pM53Wv2MYrCwZ5Q14tvyWiRfADXUEEj_-_py87mPqZKhEUN/exec';
 
   const url = GOOGLE_SCRIPT_URL + (req.url || '');
   const method = req.method || 'GET';
